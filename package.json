@@ -1,0 +1,17 @@
+{
+  "name": "georgia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-compile": "node-sass -rw scss -o css",
+    "watch": "npm run scss-compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scss-compile": "^0.1.7"
+  }
+}
